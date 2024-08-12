@@ -5,4 +5,4 @@
 - Dev_Jhorman = JhormanCastella
 - Dev_Osman = osman019
 
-#relase 1.0
+#relase 1.1
