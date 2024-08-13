@@ -1,0 +1,46 @@
+body {
+    background-color: #262223;
+    color: #F2CB57; 
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #F2CB57;
+}
+
+form {
+    background-color: #411F8C;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    color: #faf7ff;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 2px solid #4F1BBF;
+    border-radius: 3px;
+    background-color: #262223;
+    color: #F2CB57;
+}
+
+input[type="submit"] {
+    background-color: #F2CB57;
+    color: #262223;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #5F1BF2;
+    color: #F2CB57;
+}
