@@ -27,9 +27,8 @@
    </header>
    <main>
       <div class="menu-container">
-        <input type="checkbox" id="toggle-menu" class="toggle-menu">
-        <label for="toggle-menu" class="enlace-categorias">Categorías</label>
-        
+        <input type="checkbox" id="toggle-categories" class="toggle-menu">
+        <label for="toggle-categories" class="menu-label">Categorías</label>
         <div class="categorias">
           <div class="categoria1">Zapatos</div>
           <div class="categoria1">Tenis</div>
@@ -37,7 +36,126 @@
           <div class="categoria1">Botas</div>
         </div>
       </div>
+    
+      <div class="menu-container">
+        <input type="checkbox" id="toggle-brands" class="toggle-menu">
+        <label for="toggle-brands" class="menu-label">Marcas</label>
+        <div class="menu-content">
+          <div class="item">Nike</div>
+          <div class="item">Adidas</div>
+          <div class="item">Puma</div>
+          <div class="item">Reebok</div>
+        </div>
+      </div>
+    
+      <div class="menu-container">
+        <input type="checkbox" id="toggle-sale" class="toggle-menu">
+        <label for="toggle-sale" class="menu-label">Ofertas</label>
+        <div class="menu-content">
+          <div class="item">Descuentos</div>
+          <div class="item">Promociones</div>
+          <div class="item">Outlet</div>
+        </div>
+      </div>
+    
+      <div class="menu-container">
+        <input type="checkbox" id="toggle-new-arrivals" class="toggle-menu">
+        <label for="toggle-new-arrivals" class="menu-label">Novedades</label>
+        <div class="menu-content">
+          <div class="item">Nuevas Colecciones</div>
+          <div class="item">Lanzamientos</div>
+        </div>
+      </div>
     </main>
+    
+    <article>
+      <div class="carrousel">
+        <!-- Contenedor principal del carrusel -->
+        <div class="conteCarrousel">
+          <!-- Inputs radio para controlar la visualización -->
+          <input type="radio" name="carrousel" eid="itemCarrousel-1" checked>
+          <input type="radio" name="carrousel" id="itemCarrousel-2">
+          <input type="radio" name="carrousel" id="itemCarrousel-3">
+    
+          <!-- Contenedor de los items del carrusel -->
+          <div class="itemsContainer">
+            <div class="itemCarrousel" id="itemCarrousel-1">
+              <div class="itemCarrouselTarjeta">
+               <div class="titulos-items">
+                  <h4>Promocion</h4>
+               <p>Estamos rematando en 90%</p>
+               </div>
+               <div class="imagen-items">
+                  <img src="../assets/images/shoes-article-1.png" alt="">
+               </div>
+            </div>
+              <div class="itemCarrouselArrows">
+                <!-- Botones de navegación -->
+                <label for="itemCarrousel-3" class="arrow left">
+                  <i class="fas fa-chevron-left"></i>
+                </label>
+                <label for="itemCarrousel-2" class="arrow right">
+                  <i class="fas fa-chevron-right"></i>
+                </label>
+              </div>
+            </div>
+            <div class="itemCarrousel" id="itemCarrousel-2">
+               <div class="itemCarrouselTarjeta">
+                  <div class="titulos-items">
+                     <h4>Promocion</h4>
+                  <p>Estamos rematando en 90%</p>
+                  </div>
+                  <div class="imagen-items">
+                     <img src="../assets/images/shoes-article-1.png" alt="">
+                  </div>
+               </div>
+              <div class="itemCarrouselArrows">
+                <label for="itemCarrousel-1" class="arrow left">
+                  <i class="fas fa-chevron-left"></i>
+                </label>
+                <label for="itemCarrousel-3" class="arrow right">
+                  <i class="fas fa-chevron-right"></i>
+                </label>
+              </div>
+            </div>
+            <div class="itemCarrousel" id="itemCarrousel-3">
+               <div class="itemCarrouselTarjeta">
+                  <div class="titulos-items">
+                     <h4>Promocion</h4>
+                  <p>Estamos rematando en 90%</p>
+                  </div>
+                  <div class="imagen-items">
+                     <img src="../assets/images/shoes-article-1.png" alt="">
+                  </div>
+               </div>
+              <div class="itemCarrouselArrows">
+                <label for="itemCarrousel-2" class="arrow left">
+                  <i class="fas fa-chevron-left"></i>
+                </label>
+                <label for="itemCarrousel-1" class="arrow right">
+                  <i class="fas fa-chevron-right"></i>
+                </label>
+              </div>
+            </div>
+          </div>
+          <!-- Controles de navegación (puntos) -->
+          <div class="conteCarrouselController">
+            <label for="itemCarrousel-1" class="controllerDot"></label>
+            <label for="itemCarrousel-2" class="controllerDot"></label>
+            <label for="itemCarrousel-3" class="controllerDot"></label>
+          </div>
+        </div>
+      </div>
+    </article>
+    
+    <section>
+      <div class="marcas">
+         <h2>Marcas</h2>
+         
+      </div>
+    </section>
+    
+    
     
     
     
