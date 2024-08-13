@@ -73,7 +73,7 @@ header .logo {
     color: #000;
     border: none;
     padding: 5px 10px;
-    cursor: not-allowed; /* Cambiado a not-allowed para indicar que no es interactivo */
+  /* Cambiado a not-allowed para indicar que no es interactivo */
 }
 
 .cantidad {
@@ -85,8 +85,8 @@ header .logo {
     color: #fff;
     border: none;
     padding: 5px 10px;
-    cursor: not-allowed; /* Cambiado a not-allowed para indicar que no es interactivo */
-    border-radius: 3px;
+     /* Cambiado a not-allowed para indicar que no es interactivo */
+    border-radius: 3px;
 }
 
 
@@ -151,6 +151,6 @@ header .logo {
     }
 
     .icons {
-        display: none;
+        display: none;
     }
 }
