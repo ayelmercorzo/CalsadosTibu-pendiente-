@@ -86,6 +86,7 @@ header .icono-contactanos , .icono-carrito{
 }
 
 .pr1 {
+    width: 250px;
     background-color: #444;
     padding: 10px;
     border-radius: 5px;
@@ -109,6 +110,10 @@ header .icono-contactanos , .icono-carrito{
     align-items: center;
     margin-bottom: 10px;
 
+}
+
+.btn-comp{
+    padding: 10px;
 }
 
 .botones {
@@ -208,5 +213,6 @@ header .icono-contactanos , .icono-carrito{
 
     .icons {
         display: none;
-    }
+     }
+
 }
