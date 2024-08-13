@@ -1,0 +1,269 @@
+body {
+    background-color: #262223;
+    color: #F2CB57; 
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #F2CB57;
+}
+
+form {
+    background-color: #411f8c70;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    color: #faf7ff;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 2px solid #4F1BBF;
+    border-radius: 3px;
+    background-color: #262223;
+    color: #F2CB57;
+}
+
+input[type="submit"] {
+    background-color: #F2CB57;
+    color: #262223;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #5F1BF2;
+    color: #F2CB57;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    margin: 0px 10px;
+    span {
+        color: #F2CB57;
+    }
+    img {
+        width: 100px;
+    }
+}
+
+header {
+    background-color: #262223;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 4vw;
+    margin: 0px 10px;
+    span {
+        color: #F2CB57;
+    }
+    img {
+        width: 9vw;
+        height: 15vh;
+    }
+}
+.search{
+    right: 50vw;
+    position: absolute;
+}
+
+header .barra-de-busqueda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    input {
+        width: 30vw;
+        height: 40px;
+        border: #F2CB57 solid 1px;
+        border-radius: 45px;
+        background-color: #faf7ff;
+    }
+
+    img {
+        width: 5vw;
+    }
+}
+
+header .icono-contactanos , .icono-carrito{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2vw;
+    img {
+        width: 5vw;
+    }
+
+}
+
+
+
+
+.productos {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.pr1 {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 200px;
+}
+
+.producto-imagen {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.pr1 p {
+    margin-bottom: 10px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.btn-menos, .btn-mas {
+    background-color: #F2CB57;
+    color: #000;
+    border: none;
+    padding: 5px 10px;
+ 
+}
+
+.cantidad {
+    margin: 0 10px;
+}
+
+.btn-eliminar {
+    background-color: #ff4c4c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+
+    border-radius: 3px;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon, .perfil {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.perfil {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.perfil:hover {
+    border-color: #ff4c4c;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.hamburger {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: white;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    #menu-toggle:checked + .hamburger + .nav-links {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .icons {
+        display: none;
+    }
+}

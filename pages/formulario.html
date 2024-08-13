@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calzado Elite </title>
+    <link rel="stylesheet" href="/css/styleF.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="/assets/WhatsApp Image 2024-08-13 at 2.26.27 PM.jpeg" alt="Logo">
+             </div>
+             <div class="barra-de-busqueda">
+                <input type="search" id="busqueda" placeholder="Buscar">
+                <img src="/assets/icon-search.png" alt="">
+             </div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">&#9776;</label>
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Categorías</a></li>
+                <li><a href="#">Populares</a></li>
+            </ul>
+            <div class="icons">
+               
+                <a href="#"><img src="/assets/icon-cart.png" alt="Carrito de compras" class="icon"></a>
+                <a href="#"><img src="/assets/file.enc" alt="Foto de perfil" class="perfil"></a>
+            </div>
+        </nav>
+    </header>
+    
+    <form action="/submit_form" method="post">
+        <label for="nombre">Nombre del Cliente:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="direccion">Dirección:</label><br>
+        <input type="text" id="direccion" name="direccion" required><br><br>
+
+        <label for="telefono">Teléfono:</label><br>
+        <input type="tel" id="telefono" name="telefono" required><br><br>
+
+        <label for="tipo_zapato">Tipo de Zapato:</label><br>
+        <select id="tipo_zapato" name="tipo_zapato" required>
+            <option value="deportivo">Deportivo</option>
+            <option value="formal">Formal</option>
+            <option value="casual">Casual</option>
+            <option value="botas">Botas</option>
+        </select><br><br>
+
+        <label for="talla">Talla:</label><br>
+        <input type="number" id="talla" name="talla" min="30" max="45" required><br><br>
+
+        <label for="cantidad">Cantidad:</label><br>
+        <input type="number" id="cantidad" name="cantidad" min="1" required><br><br>
+
+        <label for="metodo_pago">Método de Pago:</label><br>
+        <select id="metodo_pago" name="metodo_pago" required>
+            <option value="tarjeta">Tarjeta de Crédito/Débito</option>
+            <option value="paypal">PayPal</option>
+            <option value="efectivo">Efectivo</option>
+        </select><br><br>
+
+        <a href="index1.html"><input type="submit" value="Comprar"></a>
+    </form>
+</body>
+</html>
