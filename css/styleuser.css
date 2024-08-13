@@ -1,10 +1,13 @@
 body{
     background-color: black;
+    position: absolute;
 }
 * :focus{
     outline: none;
 }
 .box{
+    padding: 10vw;
+    position: absolute;
     box-sizing: border-box;
     width: 40vw;
     height: 90vh;
@@ -15,8 +18,10 @@ body{
     background-color: rgb(43, 20, 43);
     margin-top: 5px;
     overflow: hidden;
-    
+    left: 30vw;
+    align-content: center;
 }
+
 img{
     box-sizing: border-box;
     width: 149px;
@@ -27,6 +32,9 @@ img{
     padding: 3px;
     background-color: white;
     margin-top: 20px;
+    position: absolute;
+    margin-top: -10vw;
+
 
 }
 input[type="text"],
@@ -54,16 +62,19 @@ input [type = "email"] :focus{
     border-bottom-right-radius: 20px;
     color: #3498db;
     transition: 0.2 ease;
+    text-decoration: none;
 }
+
 button{
     border: 1px solid #3498db;
     background-color: black;
     color: white;
     height: 30px;
-    width: 80px;
+    width: 100px;
     border-radius: 5px;
-    margin: 0px;
+    margin: 0 auto;
     transition: all 0.3s;
+    text-decoration: none;
 }
 button :hover{
     transform: scale(1.1);
@@ -87,5 +98,14 @@ label{
 label :hover
 input[type="file"]{
     display: none;
+
+}
+@media (max-width: 768px){
+    .div-links{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
 
 }
