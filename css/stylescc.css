@@ -37,6 +37,59 @@ header .logo {
     }
 }
 
+.productos {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.pr1 {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 200px;
+}
+
+.producto-imagen {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.pr1 p {
+    margin-bottom: 10px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.btn-menos, .btn-mas {
+    background-color: #F2CB57;
+    color: #000;
+    border: none;
+    padding: 5px 10px;
+    cursor: not-allowed; /* Cambiado a not-allowed para indicar que no es interactivo */
+}
+
+.cantidad {
+    margin: 0 10px;
+}
+
+.btn-eliminar {
+    background-color: #ff4c4c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: not-allowed; /* Cambiado a not-allowed para indicar que no es interactivo */
+    border-radius: 3px;
+}
+
+
 .nav-links {
     list-style: none;
     display: flex;
