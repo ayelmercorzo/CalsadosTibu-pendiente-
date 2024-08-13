@@ -7,7 +7,30 @@
     <link rel="stylesheet" href="/css/styleF.css">
 </head>
 <body>
-    <h2>Calzado Élite <img src="" alt=""></h2>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="/assets/WhatsApp Image 2024-08-13 at 2.26.27 PM.jpeg" alt="Logo">
+             </div>
+             <div class="barra-de-busqueda">
+                <input type="search" id="busqueda" placeholder="Buscar">
+                <img src="/assets/icon-search.png" alt="">
+             </div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">&#9776;</label>
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Categorías</a></li>
+                <li><a href="#">Populares</a></li>
+            </ul>
+            <div class="icons">
+               
+                <a href="#"><img src="/assets/icon-cart.png" alt="Carrito de compras" class="icon"></a>
+                <a href="#"><img src="/assets/file.enc" alt="Foto de perfil" class="perfil"></a>
+            </div>
+        </nav>
+    </header>
+    
     <form action="/submit_form" method="post">
         <label for="nombre">Nombre del Cliente:</label><br>
         <input type="text" id="nombre" name="nombre" required><br><br>
@@ -39,7 +62,7 @@
             <option value="efectivo">Efectivo</option>
         </select><br><br>
 
-        <input type="submit" value="Enviar">
+        <a href="index1.html"><input type="submit" value="Comprar"></a>
     </form>
 </body>
 </html>
